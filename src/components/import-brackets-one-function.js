@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { map } from "lodash";
+import React, { Component } from 'react';
+import { map } from 'lodash';
 
 export const numbers = [1, 5, 8, 10, 1, 5, 15, 42, 5];
 
@@ -9,9 +9,9 @@ export const printArrayInline = arr => {
       [
       {map(arr, (n, i) => {
         if (i < arr.length - 1) {
-          return n + ", ";
+          return n + ', ';
         }
-        return n + "";
+        return n + '';
       })}
       ]
     </span>
