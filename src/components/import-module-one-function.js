@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { map } from "lodash";
+import map from "lodash/map";
 
 export const numbers = [1, 5, 8, 10, 1, 5, 15, 42, 5];
 

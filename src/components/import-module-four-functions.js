@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import { map, uniq, tail, times } from "lodash";
+import map from "lodash/map";
+import tail from "lodash/tail";
+import times from "lodash/times";
+import uniq from "lodash/uniq";
 
 const numbers = [1, 5, 8, 10, 1, 5, 15, 42, 5];
 
