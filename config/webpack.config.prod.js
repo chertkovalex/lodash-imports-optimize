@@ -149,7 +149,9 @@ module.exports = {
             include: paths.appSrc,
             loader: require.resolve('babel-loader'),
             options: {
-              
+                plugins: ['lodash'],
+                presets: [['env', { 'targets': { 'node': 4 } }]],
+
               compact: true,
             },
           },
