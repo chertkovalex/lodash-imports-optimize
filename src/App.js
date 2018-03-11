@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import "./App.css";
+import React, { Component } from 'react';
+import './App.css';
 
-import LodashUsage from "./components/import-full-four-functions";
+import LodashUsage from './components/import-brackets-one-function';
 
 class App extends Component {
   render() {
